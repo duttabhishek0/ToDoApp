@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.androidpoet:metaphor:1.0.6@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4988f73f9a242c70fa2f7f6730929390/transformed/metaphor-1.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4988f73f9a242c70fa2f7f6730929390/transformed/metaphor-1.0.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4988f73f9a242c70fa2f7f6730929390/transformed/metaphor-1.0.6/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.androidpoet/metaphor/1.0.6/d366f3f8b8d78969472815bda1496499d7aa4ffc/metaphor-1.0.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.androidpoet/metaphor/1.0.6/38814bc65029b0978ded285216fe3751b5e7cbc0/metaphor-1.0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

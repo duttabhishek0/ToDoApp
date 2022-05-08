@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.abhishek.todoapp.screens.home.TaskFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_task" >
+        <action
+            android:id="@+id/action_navigation_home_to_add_task_fragment"
+            app:destination="@id/add_task_fragment" />
+
+        <action
+            android:id="@+id/action_navigation_home_to_detail_fragment"
+            app:destination="@id/navigation_detail" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_detail"
+        android:name="com.abhishek.todoapp.screens.taskdetail.TaskDetailFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_task_detail" >
+        <argument
+            android:name="note"
+            app:argType="com.abhishek.todoapp.model.Task" />
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/add_task_fragment"
+        android:name="com.abhishek.todoapp.screens.addtask.AddTaskFragment"
+        tools:layout="@layout/fragment_add_task"/>
+
+
+</navigation>
